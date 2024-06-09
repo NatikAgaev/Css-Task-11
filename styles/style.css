@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    max-width: 1140px;
+    margin-inline: auto;
+}
+
+.header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.main-box {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.col-4 {
+    width: 30%;
+    height: 200px;
+    overflow: hidden;
+    margin: 30px 0;
+    position: relative;
+}
+
+
+.scrolling-page img {
+    width: 100%;
+    transition: all 0.9s ease-in-out;
+}
+
+.scrolling-page img:hover {
+    transform: translateY(-500px)
+}
+
+h3.pos {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
